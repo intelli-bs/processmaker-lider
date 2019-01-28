@@ -122,6 +122,10 @@ function getData($appUid, $appDocUid)
                 'supplier_code'=> $value['T']];
         }
     }
+    if($key< $i+1){
+        $error = '<div class="alert alert-danger" role="alert">Столбцы в файле Excel не соответсвуют стандарту. Загрузите файл в правильном формате</div>';
+        return $error;
+    }
     foreach ($suppliers as $key=>$value) {
         $supplier = addslashes(trim($value));
         $code = $key;
