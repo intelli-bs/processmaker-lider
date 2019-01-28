@@ -106,7 +106,7 @@ function getData($appUid, $appDocUid)
                 $error = '<div class="alert alert-danger" role="alert">Код наименования дублируется в файле. Исправьте ошибку и попробуйте снова</div>';
                         return $error;
             }*/
-            if(!array_key_exists( $value['T'], $suppliers)){
+            if(!array_key_exists( $value['T'], $suppliers) && $value['T'] != null){
                 $suppliers[$value['T']] = $value['S'];
             }
             array_push($codes, $value['C']);

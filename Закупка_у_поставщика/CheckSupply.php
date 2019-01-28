@@ -49,7 +49,7 @@ if(!@=additional_delivery_expected)
 	}
     else
     {
-        @#payment_amount = @#invoice_amount - @#prepayment_amount - 				@#payment_on_readiness_amount;
+        @#payment_amount = @#invoice_amount - @#prepayment_amount - @#payment_on_readiness_amount;
 	}
 
     @=ValidItemsList = $validItems;
