@@ -102,24 +102,20 @@ function getData($appUid, $appDocUid)
                     return $error;
                 }
             }
-            /*if(in_array( $value['C'], $codes)){
-                $error = '<div class="alert alert-danger" role="alert">Код наименования дублируется в файле. Исправьте ошибку и попробуйте снова</div>';
-                        return $error;
-            }*/
-            if(!array_key_exists( $value['T'], $suppliers) && $value['T'] != null){
+            if(!array_key_exists( $value['T'], $suppliers) && (trim($value['T']) != null || trim($value['T']) != '')){
                 $suppliers[$value['T']] = $value['S'];
             }
             array_push($codes, $value['C']);
-            $itemsGrid[$key-$i] = ['code' => $value['C'],
-                'arthuikul' => $value['D'],
-                'title' => $value['F'],
-                'unit' => $value['H'],
-                'quantity' => $value['K'],
-                'price' => $value['J'],
-                'sum' => $value['N'],
-                'supplier' => $value['S'],
+            $itemsGrid[$key-$i] = ['code' => trim($value['C']),
+                'arthuikul' => trim($value['D']),
+                'title' => trim($value['F']),
+                'unit' => trim($value['H']),
+                'quantity' => trim($value['K']),
+                'price' => trim($value['J']),
+                'sum' => trim($value['N']),
+                'supplier' => trim($value['S']),
                 'performer' => $performers[trim($value['R'])],
-                'supplier_code'=> $value['T']];
+                'supplier_code'=> trim($value['T'])];
         }
     }
     if($key< $i+1){
@@ -196,4 +192,5 @@ if(is_array($items)){
     @@Error = "Ошибка при загрузке файла";
     return true;
 }
+
 
