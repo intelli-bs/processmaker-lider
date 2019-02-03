@@ -67,7 +67,8 @@ if ($suppliers_qty == 0){
 				<div class='panel-heading'>
 					<h4 class='panel-title'>
 						<a data-toggle='collapse' data-parent='#accordion' href='#collapse".$i."'>
-							<span class='glyphicon glyphicon-plus'></span>". $value['supplier']['NAME']."</a>
+							<span class='glyphicon glyphicon-plus'></span>". $value['supplier']['NAME']."
+                        </a>
 						<span class='pull-right glyphicon glyphicon-tag'>Активные закупки: ".$value['active']."(Сумма: ".$value['active_sum']." грн)&nbsp</span>
 						<span class='pull-right glyphicon glyphicon-tag'>Завершенные закупки: ".$completeRequests."(Сумма: ".$completeSum." грн)</span>
 					</h4>

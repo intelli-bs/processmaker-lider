@@ -43,7 +43,8 @@ if ($purchases_qty == 0){
 				<div class='panel-heading'>
 					<h4 class='panel-title'>
 						<a data-toggle='collapse' data-parent='#accordion' href='#collapse".$i."'>
-							<span class='glyphicon glyphicon-plus'></span><span style='font-weight:bold;'>№ заказа: ". $purchase['REQUESTID']."</span> ( № Процесса: ".$purchase['APP_NUMBER'].")
+							<span class='glyphicon glyphicon-plus'></span>
+							<span style='font-weight:bold;'>№ заказа: ". $purchase['REQUESTID']."</span> ( № Процесса: ".$purchase['APP_NUMBER'].")
 						</a>
 						<span class='pull-right'>".$purchase['CREATED_AT']."</span>
 					</h4>
@@ -58,7 +59,7 @@ if ($purchases_qty == 0){
 									  <th scope='col'>Начало</th>
 									  <th scope='col'>Статус</th>
 									</tr>
-	  </thead><tbody>";
+	                        </thead><tbody>";
             foreach($purchases_user as $purchase_user){
                 if($purchase_user['PARENT_PROCESS_ID'] == $purchase['APP_UID'] ){
                     switch ($purchase_user['APP_STATUS']) {
@@ -150,7 +151,7 @@ if ($purchases_qty == 0){
                         $html .= " <tr>
 							<th colspan = '5' style='background-color:".$color."'>".$status."</th>
 						</tr>
-						<tr>
+						    <tr>
 										  <th scope='row'><div>".$supplier['SUPPLIER_NAME']."</div>
 														  <div>(".$supplier['PERFORMER_NAME'].")</div>
 										  </th>
@@ -199,10 +200,10 @@ if ($purchases_qty == 0){
 									   </tr>";
                     }
                 }
-                $html .= "</tbody></table></div>";
+
             }
-            $html .= "</div>
-			</div>";
+            $html .= "</tbody></table>";
+            $html .= "</div></div></div>";
             $i++;
         }
         $html .= "</div>";
