@@ -75,6 +75,7 @@ function getData($appUid, $appDocUid)
         return $error;
     }
     $i = 6;//empty rows before table
+    $count = 1;
     foreach ($data as $key => $value) {
         if($key == $i){
             $check = checkHeaders($value);
@@ -106,16 +107,18 @@ function getData($appUid, $appDocUid)
                 $suppliers[$value['T']] = $value['S'];
             }
             array_push($codes, $value['C']);
-            $itemsGrid[$key-$i] = ['code' => trim($value['C']),
+            $itemsGrid[$key-$i] = [
+                'id' =>  $count,
+                'code' => trim($value['C']),
                 'arthuikul' => trim($value['D']),
                 'title' => trim($value['F']),
                 'unit' => trim($value['H']),
-                'quantity' => trim($value['K']),
-                'price' => trim($value['J']),
-                'sum' => trim($value['N']),
+                'quantity' => str_replace(',','',trim($value['K'])),
+                'price' => str_replace(',','',trim($value['J'])),
                 'supplier' => trim($value['S']),
                 'performer' => $performers[trim($value['R'])],
                 'supplier_code'=> trim($value['T'])];
+            $count++;
         }
     }
     if($key< $i+1){
@@ -153,7 +156,7 @@ function getData($appUid, $appDocUid)
 
 @@ParsingResult = true;
 $appUid = @@APPLICATION;
-$index = @@INDEX;
+@@del_index = @%INDEX;
 $clientsFile = @@CalculationFileMult[0]['appDocUid'];
 $clientsFile = '["'.$clientsFile.'"]';
 //set to UID of form where file is uploaded
@@ -192,5 +195,4 @@ if(is_array($items)){
     @@Error = "Ошибка при загрузке файла";
     return true;
 }
-
 
