@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">3.3.0-community</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1558108167</meta>
+    <meta key="export_datetime"><![CDATA[2019-05-17T18:49:27+03:00]]></meta>
+    <meta key="export_server_addr"><![CDATA[172.31.86.56:443]]></meta>
+    <meta key="export_server_os">Linux</meta>
+    <meta key="export_server_php_version">70124</meta>
+    <meta key="export_version">22</meta>
+    <meta key="workspace">lider</meta>
+    <meta key="name"><![CDATA[Мониторинг работы по поставщикам]]></meta>
+    <meta key="uid">1038799465beb4ea95fc7a7018033580</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY">
+      <record>
+        <act_uid>3330157975beb4ed6432ca8061059140</act_uid>
+        <prj_uid>1038799465beb4ea95fc7a7018033580</prj_uid>
+        <pro_uid>3814189155beb4ea9685a10026703734</pro_uid>
+        <act_name><![CDATA[Мониторинг работы по поставщикам]]></act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>7577343555beb4ed6448b65090835266</bou_uid>
+        <dia_uid>5049336655beb4ea96656d7063361209</dia_uid>
+        <element_uid>3330157975beb4ed6432ca8061059140</element_uid>
+        <bou_element>8527477395c2550504a5382062977560</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>184</bou_x>
+        <bou_y>79</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>2364521645beb4ed65cd8e4044783269</bou_uid>
+        <prj_uid>1038799465beb4ea95fc7a7018033580</prj_uid>
+        <dia_uid>5049336655beb4ea96656d7063361209</dia_uid>
+        <element_uid>6258859555beb4ed65bc362041993771</element_uid>
+        <bou_element>8527477395c2550504a5382062977560</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>100</bou_x>
+        <bou_y>100</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>4234805795beb4ed6548663061458280</bou_uid>
+        <prj_uid>1038799465beb4ea95fc7a7018033580</prj_uid>
+        <dia_uid>5049336655beb4ea96656d7063361209</dia_uid>
+        <element_uid>9888329375beb4ed6535ab5060682683</element_uid>
+        <bou_element>8527477395c2550504a5382062977560</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>374</bou_x>
+        <bou_y>96</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>7577343555beb4ed6448b65090835266</bou_uid>
+        <prj_uid>1038799465beb4ea95fc7a7018033580</prj_uid>
+        <dia_uid>5049336655beb4ea96656d7063361209</dia_uid>
+        <element_uid>3330157975beb4ed6432ca8061059140</element_uid>
+        <bou_element>8527477395c2550504a5382062977560</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>184</bou_x>
+        <bou_y>79</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>5049336655beb4ea96656d7063361209</dia_uid>
+        <prj_uid>1038799465beb4ea95fc7a7018033580</prj_uid>
+        <dia_name><![CDATA[Мониторинг работы по поставщикам]]></dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT">
+      <record>
+        <evn_uid>6258859555beb4ed65bc362041993771</evn_uid>
+        <prj_uid>1038799465beb4ea95fc7a7018033580</prj_uid>
+        <pro_uid>3814189155beb4ea9685a10026703734</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>2364521645beb4ed65cd8e4044783269</bou_uid>
+        <dia_uid>5049336655beb4ea96656d7063361209</dia_uid>
+        <element_uid>6258859555beb4ed65bc362041993771</element_uid>
+        <bou_element>8527477395c2550504a5382062977560</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>100</bou_x>
+        <bou_y>100</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="EXTENSION"/>
+    <table name="FLOW">
+      <record>
+        <flo_uid>5665390305beb4ed664ed38083977490</flo_uid>
+        <prj_uid>1038799465beb4ea95fc7a7018033580</prj_uid>
+        <dia_uid>5049336655beb4ea96656d7063361209</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>3330157975beb4ed6432ca8061059140</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>9888329375beb4ed6535ab5060682683</flo_element_dest>
+        <flo_element_dest_type>bpmnGateway</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>335</flo_x1>
+        <flo_y1>117</flo_y1>
+        <flo_x2>374</flo_x2>
+        <flo_y2>117</flo_y2>
+        <flo_state><![CDATA[[{"x":335,"y":117},{"x":374,"y":117}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>6330096985beb4efe8bba38032973956</flo_uid>
+        <prj_uid>1038799465beb4ea95fc7a7018033580</prj_uid>
+        <dia_uid>5049336655beb4ea96656d7063361209</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>9888329375beb4ed6535ab5060682683</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>3330157975beb4ed6432ca8061059140</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>395</flo_x1>
+        <flo_y1>96</flo_y1>
+        <flo_x2>260</flo_x2>
+        <flo_y2>79</flo_y2>
+        <flo_state><![CDATA[[{"x":395,"y":96},{"x":395,"y":59},{"x":260,"y":59},{"x":260,"y":79}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>8578433305beb4ed6649569067789623</flo_uid>
+        <prj_uid>1038799465beb4ea95fc7a7018033580</prj_uid>
+        <dia_uid>5049336655beb4ea96656d7063361209</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>6258859555beb4ed65bc362041993771</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>3330157975beb4ed6432ca8061059140</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>133</flo_x1>
+        <flo_y1>117</flo_y1>
+        <flo_x2>184</flo_x2>
+        <flo_y2>117</flo_y2>
+        <flo_state><![CDATA[[{"x":133,"y":117},{"x":184,"y":117}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+    </table>
+    <table name="GATEWAY">
+      <record>
+        <gat_uid>9888329375beb4ed6535ab5060682683</gat_uid>
+        <prj_uid>1038799465beb4ea95fc7a7018033580</prj_uid>
+        <pro_uid>3814189155beb4ea9685a10026703734</pro_uid>
+        <gat_name></gat_name>
+        <gat_type>PARALLEL</gat_type>
+        <gat_direction>DIVERGING</gat_direction>
+        <gat_instantiate>0</gat_instantiate>
+        <gat_event_gateway_type>NONE</gat_event_gateway_type>
+        <gat_activation_count>0</gat_activation_count>
+        <gat_waiting_for_start>1</gat_waiting_for_start>
+        <gat_default_flow>0</gat_default_flow>
+        <bou_uid>4234805795beb4ed6548663061458280</bou_uid>
+        <dia_uid>5049336655beb4ea96656d7063361209</dia_uid>
+        <element_uid>9888329375beb4ed6535ab5060682683</element_uid>
+        <bou_element>8527477395c2550504a5382062977560</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>374</bou_x>
+        <bou_y>96</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="LANE"/>
+    <table name="LANESET"/>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>3814189155beb4ea9685a10026703734</pro_uid>
+        <prj_uid>1038799465beb4ea95fc7a7018033580</prj_uid>
+        <dia_uid>5049336655beb4ea96656d7063361209</dia_uid>
+        <pro_name><![CDATA[Мониторинг работы по поставщикам]]></pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>1038799465beb4ea95fc7a7018033580</prj_uid>
+        <prj_name><![CDATA[Мониторинг работы по поставщикам]]></prj_name>
+        <prj_description></prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2018-11-14 00:22:33]]></prj_create_date>
+        <prj_update_date><![CDATA[2018-12-28 01:21:47]]></prj_update_date>
+        <prj_author>00000000000000000000000000000001</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>1038799465beb4ea95fc7a7018033580</pro_uid>
+        <pro_title><![CDATA[Мониторинг работы по поставщикам]]></pro_title>
+        <pro_description></pro_description>
+        <pro_parent>1038799465beb4ea95fc7a7018033580</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_create></pro_tri_create>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category>6675205135ba9b762a090b7006811625</pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2018-12-28 01:21:47]]></pro_update_date>
+        <pro_create_date><![CDATA[2018-11-14 00:22:33]]></pro_create_date>
+        <pro_create_user>00000000000000000000000000000001</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>0</pro_debug>
+        <pro_dynaforms><![CDATA[a:1:{s:7:"PROCESS";s:0:"";}]]></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost><![CDATA[$]]></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <pro_category_label><![CDATA[Предприятие]]></pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks">
+      <record>
+        <pro_uid>1038799465beb4ea95fc7a7018033580</pro_uid>
+        <tas_uid>3330157975beb4ed6432ca8061059140</tas_uid>
+        <tas_title><![CDATA[Мониторинг работы по поставщикам]]></tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>00000000000000000000000000000001</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>184</tas_posx>
+        <tas_posy>79</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+    </table>
+    <table name="routes">
+      <record>
+        <rou_uid>6225508385c255e8b904b77064023178</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>1038799465beb4ea95fc7a7018033580</pro_uid>
+        <tas_uid>3330157975beb4ed6432ca8061059140</tas_uid>
+        <rou_next_task>3330157975beb4ed6432ca8061059140</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>PARALLEL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+    </table>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs"/>
+    <table name="outputs"/>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>9673293345beb68ea64b0f8079463529</dyn_uid>
+        <dyn_id>39</dyn_id>
+        <dyn_title>SuppliersMonitoring</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>1038799465beb4ea95fc7a7018033580</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[1038799465beb4ea95fc7a7018033580/9673293345beb68ea64b0f8079463529]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"SuppliersMonitoring","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"9673293345beb68ea64b0f8079463529","name":"SuppliersMonitoring","description":"","mode":"edit","script":{"type":"js","code":"\n // Add minus icon for collapse element which is open by default\n$(\".collapse.in\").each(function(){\n   $(this).siblings(\".panel-heading\").find(\".glyphicon\").addClass(\"glyphicon-minus\").removeClass(\"glyphicon-plus\");\n});\n        \n // Toggle plus minus icon on show hide of collapse element\n$(\".collapse\").on('show.bs.collapse', function(){\n    $(this).parent().find(\".glyphicon\").removeClass(\"glyphicon-plus\").addClass(\"glyphicon-minus\");\n }).on('hide.bs.collapse', function(){\n     $(this).parent().find(\".glyphicon\").removeClass(\"glyphicon-minus\").addClass(\"glyphicon-plus\");\n });\n/*\n * Back to top button\n */\n\n$(\"#back-to-top\").css( \"display\" , \"none\");\n$(\"#back-to-top\").css( \"position\" , \"fixed\");\n$(\"#back-to-top\").css( \"bottom\" , \"42px\");\n$(\"#back-to-top\").css( \"right\" , \"25px\");\n$(\"#back-to-top\").css( \"text-align\" , \"center\");\n$(\"#back-to-top\").css( \"height\" , \"32px\");\n$(\"#back-to-top\").css( \"width\" , \"32px\");\n$(\"#back-to-top\").css( \"cursor\" , \"pointer\");\n$(\"#back-to-top\").css( \"border\" , \"0\");\n$(\"#back-to-top\").css( \"border-radius\" , \"2px\");\n$(\"#back-to-top\").css( \"text-decoration\" , \"none\");\n$(\"#back-to-top\").css( \"padding-left\" , \"8px\");\n$(\"#back-to-top\").click(function(e) {\n            e.preventDefault();\n            $('html, body').animate({\n                scrollTop: 0\n            }, 100);\n       });\n$(window).scroll(function () {\n            if ($(this).scrollTop() > 500) {\n                $('#back-to-top').fadeIn();\n            } else {\n                $('#back-to-top').fadeOut();\n            }\n        });\n\n$('#apply').click(function(){\n  let value = $(\"#analogue_supplier_form\").getValue();\n  let text = $(\"#analogue_supplier_form\").getText();\n  if(value !== text){\n    $(\".panel.panel-primary\").each(function(){\n  \t\tif($(this).prop('id') !== 'code'+value){\n    \t\t$(this).css('display','none');\n     \t}\n\t});\n   }else{\n     $(\".panel.panel-primary\").each(function(){\n  \t\tif($(this).data( \"supplier\" ) !== text){\n    \t\t$(this).css('display','none');\n     \t}\n\t});\n   }\n  \n  \n});\n$('#show_all').click(function(){\n  $(\".panel.panel-primary\").css('display','block');\n  });"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"title0000000001","label":"Мониторинг работы по поставщикам","colSpan":12}],[{"type":"submit","id":"submit","name":"submit","label":"Завершить просмотр","colSpan":12}],[{"type":"suggest","variable":"analogue_supplier_form","var_uid":"1291966315c4902cb6a0202095537042","dataType":"string","protectedValue":false,"id":"analogue_supplier_form","name":"analogue_supplier_form","label":"Поставщик (код)","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT CODE, CONCAT(NAME,' (',CODE,')') FROM PMT_SUPPLIERS","dataVariable":"","options":[],"delay":0,"var_name":"analogue_supplier_form","colSpan":6},{"type":"button","id":"apply","name":"button0000000001","label":"Отфильтровать","colSpan":3},{"type":"button","id":"show_all","name":"button0000000002","label":"Показать всех","colSpan":3}],[{"type":"panel","id":"panel","content":"@@html","border":"0px","colSpan":12}],[{"type":"panel","id":"up","content":" <a href=\"#\" id=\"back-to-top\" class=\"btn btn-info btn-lg\" title=\"Back to top\"><span\n                class=\"glyphicon   glyphicon-chevron-up\"></span></a>","border":"0px","colSpan":12}]],"variables":[{"var_uid":"1291966315c4902cb6a0202095537042","prj_uid":"1038799465beb4ea95fc7a7018033580","var_name":"analogue_supplier_form","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2019-02-03 05:44:59]]></dyn_update_date>
+      </record>
+    </table>
+    <table name="steps">
+      <record>
+        <step_uid>5754682705beb68f21017e9054640238</step_uid>
+        <pro_uid>1038799465beb4ea95fc7a7018033580</pro_uid>
+        <tas_uid>3330157975beb4ed6432ca8061059140</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>9673293345beb68ea64b0f8079463529</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+    </table>
+    <table name="triggers">
+      <record>
+        <tri_uid>5573424925beb68c0e2da58035912835</tri_uid>
+        <tri_title>getDataFromReportTable</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>1038799465beb4ea95fc7a7018033580</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$suppliers = [];
+$purchases = [];
+
+$sqlPurchases = "SELECT * FROM PMT_PURCHASE_SUPPLIER_MONITORING ORDER BY APP_STATUS DESC";
+$sqlSuppliers = "SELECT * FROM PMT_SUPPLIERS";
+$sqlcountActive = "SELECT COUNT(*) AS QTY,SUM(INVOICE_AMOUNT) AS SUM, SUPPLIER_NAME,SUPPLIER_CODE FROM PMT_PURCHASE_SUPPLIER_MONITORING WHERE APP_STATUS = 'TO_DO' GROUP BY SUPPLIER_CODE ORDER BY QTY DESC";
+$sqlcountComplete = "SELECT COUNT(*) AS QTY,SUM(INVOICE_AMOUNT) AS SUM, SUPPLIER_NAME,SUPPLIER_CODE FROM PMT_PURCHASE_SUPPLIER_MONITORING WHERE NOT APP_STATUS = 'TO_DO' GROUP BY SUPPLIER_CODE";
+try{
+	$purchases = executeQuery($sqlPurchases);
+	$suppliers = executeQuery($sqlSuppliers);
+	$countActive =  executeQuery($sqlcountActive);
+	$countComplete = executeQuery($sqlcountComplete);
+}catch (Exception $e){
+	$g = new G();
+    $g->SendMessageText("Execution of queries ".$sqlPurchases.",".$sqlSuppliers." failed!","ERROR");
+	return;
+}
+
+$suppliers_qty = count($suppliers);
+$completed = 0;
+$status = '';
+$suppliers_sorted = [];
+$html = "<div class='panel-group' id='accordion'>";
+if ($suppliers_qty == 0){
+	$html = "<h4>Отсутствуют сведения о поставщиках в базе данных<h4/>";
+}else{
+	try{
+		foreach($countActive as $Active){
+			$j = 0;
+			foreach($suppliers as $supplier)
+			{
+				if($Active['SUPPLIER_CODE'] == $supplier['CODE']){
+					$suppliers_sorted[$supplier['ID']]['active'] = $Active['QTY'];
+					$suppliers_sorted[$supplier['ID']]['supplier'] = $supplier;
+					$suppliers_sorted[$supplier['ID']]['active_sum'] = $Active['SUM'];
+					array_splice($suppliers, $j, 1);
+				}
+				$j++;
+			}
+		}
+		
+		@@sorted = $suppliers_sorted;
+		
+		$i = 0;
+		foreach($suppliers_sorted as $key=>$value)
+	   {
+			$activeRequests = 0;
+			$activeSum = 0;
+			$completeRequests = 0;
+			$completeSum = 0;
+			
+			foreach($countComplete as $Complete){
+				if($Complete['SUPPLIER_CODE'] == $value['supplier']['CODE']){
+					$completeRequests = $Complete['QTY'];
+					$completeSum = $Complete['SUM'];
+				}
+			}
+			
+			$html .= "<div id='code".$value['supplier']['CODE']."' class='panel panel-primary' data-supplier='".$value['supplier']['NAME']."'>
+				<div class='panel-heading'>
+					<h4 class='panel-title'>
+						<a data-toggle='collapse' data-parent='#accordion' href='#collapse".$i."'>
+							<span class='glyphicon glyphicon-plus'></span>". $value['supplier']['NAME']." (".$value['supplier']['CODE'].")</a>
+						<span class='pull-right glyphicon glyphicon-tag'>Активные закупки: ".$value['active']."(Сумма: ".$value['active_sum']." грн)&nbsp</span>
+						<span class='pull-right glyphicon glyphicon-tag'>Завершенные закупки: ".$completeRequests."(Сумма: ".$completeSum." грн)</span>
+					</h4>
+				</div>
+				<div id='collapse".$i."' class='panel-collapse collapse'>
+					<div class='panel-body' style='background-color:#ededed;'>
+						<table class='table table-bordered table-condensed' style='background-color:#fff;'>
+							<thead><tr>
+									  <th scope='col'>№ заявки (№ процесса)</th>
+									  <th scope='col'>Текущий этап</th>
+									  <th scope='col'>Отгрузка</th>
+									  <th scope='col'>Оплаты</th>
+									  <th scope='col'>Статус</th>
+									</tr>
+	  </thead><tbody>";
+	 
+				foreach($purchases as $purchase){
+					if($purchase['SUPPLIER_CODE'] == $value['supplier']['CODE'] ){
+						switch ($purchase['APP_STATUS']) {
+							case 'TO_DO':
+								$status = 'В процессе';
+								break;
+							case 'PAUSED':
+								$status = 'Приостановлено';
+								break;
+							case 'DRAFT':
+							   $status = 'Черновик';
+								break;
+							case 'CANCELLED':
+								$status = 'Отменено';
+								break;
+							case 'COMPLETED':
+								$status = 'Выполнено';
+								break;
+							case 'DELETED':
+								$status = 'Удалено';
+								break;
+						}
+						$html .= " <tr>
+									  <th scope='row'>".$purchase['REQUESTID']." 
+									  (".$purchase['APP_NUMBER'].")
+									  </th>
+									  <td>".$purchase['TASK_NAME']."</td>
+									   <td>
+										<dl>
+											<dt>План</dt>
+											<dd>- <small>".str_replace("00:00:00", "", $purchase['EXPECTED_SHIPMENT_DATE'])."</small></dd>
+											<dt>Факт</dt>
+											<dd>- <small>".str_replace("00:00:00", "", $purchase['ACTUAL_SHIPMENT_DATE'])."</small></dd>
+										  </dl>  
+									   </td>
+									   <td>
+											<table class='table table-bordered table-condensed'>
+														  <tr>
+														    <th rowspan = '2'>Вид оплаты</th>
+															<th colspan = '2'>Дата</th>
+															<th rowspan = '2'><div>Сумма счёта</div>
+															<div>".$purchase['INVOICE_AMOUNT']."грн.</div>
+															</th>
+														  </tr>
+														   <tr>
+															<th>План</th>
+															<th>Факт</th> 
+														  </tr>
+														  <tr>
+														    <td>Предоплата</td>
+															<td><small style='font-size: 70%;'>".str_replace("00:00:00", "", $purchase['PREPAYMENT_DATE'])."</small></td>
+															<td><small style='font-size: 70%;'>".str_replace("00:00:00", "", $purchase['PREPAYMENT_ACTUAL_DATE'])."</small></td> 
+															<td><small style='font-size: 70%;'>".$purchase['PREPAYMENT_AMOUNT']."</small></td>
+														  </tr>
+														  <tr>
+														    <td>Оплата по готовности</td>
+															<td><small style='font-size: 70%;'>".str_replace("00:00:00", "", $purchase['PAYMENT_ON_READINESS_DATE'])."</small></td>
+															<td><small style='font-size: 70%;'>".str_replace("00:00:00", "", $purchase['PAYMENT_ON_READINESS_ACTUAL_DATE'])."</small></td> 
+															<td><small style='font-size: 70%;'>".$purchase['PAYMENT_ON_READINESS_AMOUNT']."</small></td>
+														  </tr>
+														  <tr>
+														    <td>Оплата</td>
+															<td><small style='font-size: 70%;'>".str_replace("00:00:00", "", $purchase['PAYMENT_DATE'])."</small></td>
+															<td><small style='font-size: 70%;'>".str_replace("00:00:00", "", $purchase['PAYMENT_ACTUAL_DATE'])."</small></td> 
+															<td><small style='font-size: 70%;'>".$purchase['PAYMENT_AMOUNT']."</small></td>
+														  </tr>
+													</table></td></td>
+									   <td>".$status."</td>
+								   </tr>";
+					}
+				}
+				$html .= "</tbody></table>";
+				$html .= "</div></div></div>";
+			$i++;		
+	   }
+		
+		foreach($suppliers as $supplier)
+	   {
+			$activeRequests = 0;
+			$activeSum = 0;
+			$completeRequests = 0;
+			$completeSum = 0;
+			foreach($countActive as $Active){
+				if($Active['SUPPLIER_CODE'] == $supplier['CODE']){
+					$activeRequests = $Active['QTY'];
+					$activeSum = $Active['SUM'];
+				}
+			}
+			foreach($countComplete as $Complete){
+				if($Complete['SUPPLIER_CODE'] == $supplier['CODE']){
+					$completeRequests = $Complete['QTY'];
+					$completeSum = $Complete['SUM'];
+				}
+			}
+			$html .= "<div class='panel panel-primary' id='code".$supplier['CODE']."' data-supplier='".$supplier['NAME']."'>
+				<div class='panel-heading'>
+					<h4 class='panel-title'>
+						<a data-toggle='collapse' data-parent='#accordion' href='#collapse".$i."'>
+							<span class='glyphicon glyphicon-plus'></span>". $supplier['NAME']."  (".$supplier['CODE'].")</a>
+						<span class='pull-right glyphicon glyphicon-tag'>Активные закупки: ".$activeRequests."(Сумма: ".$activeSum." грн)&nbsp</span>
+						<span class='pull-right glyphicon glyphicon-tag'>Завершенные закупки: ".$completeRequests."(Сумма: ".$completeSum." грн)</span>
+					</h4>
+				</div>
+				<div id='collapse".$i."' class='panel-collapse collapse'>
+					<div class='panel-body' style='background-color:#ededed;'>
+						<table class='table table-bordered table-condensed' style='background-color:#fff;'>
+							<thead><tr>
+									  <th scope='col'>№ заявки (№ процесса)</th>
+									  <th scope='col'>Текущий этап</th>
+									  <th scope='col'>Отгрузка</th>
+									  <th scope='col'>Оплаты</th>
+									  <th scope='col'>Статус</th>
+									</tr>
+	  </thead><tbody>";
+	 
+				foreach($purchases as $purchase){
+					if($purchase['SUPPLIER_CODE'] == $supplier['CODE'] ){
+						switch ($purchase['APP_STATUS']) {
+							case 'TO_DO':
+								$status = 'В процессе';
+								break;
+							case 'PAUSED':
+								$status = 'Приостановлено';
+								break;
+							case 'DRAFT':
+							   $status = 'Черновик';
+								break;
+							case 'CANCELLED':
+								$status = 'Отменено';
+								break;
+							case 'COMPLETED':
+								$status = 'Выполнено';
+								break;
+							case 'DELETED':
+								$status = 'Удалено';
+								break;
+						}
+						$html .= " <tr>
+									  <th scope='row'>".$purchase['REQUESTID']." 
+									  (".$purchase['APP_NUMBER'].")
+									  </th>
+									  <td>".$purchase['TASK_NAME']."</td>
+									   <td>
+										<dl>
+											<dt>План</dt>
+											<dd>- <small>".str_replace("00:00:00", "", $purchase['EXPECTED_SHIPMENT_DATE'])."</small></dd>
+											<dt>Факт</dt>
+											<dd>- <small>".str_replace("00:00:00", "", $purchase['ACTUAL_SHIPMENT_DATE'])."</small></dd>
+										  </dl>  
+									   </td>
+									   <td>
+											<table class='table table-bordered table-condensed'>
+														  <tr>
+														    <th rowspan = '2'>Вид оплаты</th>
+															<th colspan = '2'>Дата</th>
+															<th rowspan = '2'><div>Сумма счёта</div>
+															<div>".$purchase['INVOICE_AMOUNT']."грн.</div>
+															</th>
+														  </tr>
+														   <tr>
+															<th>План</th>
+															<th>Факт</th> 
+														  </tr>
+														  <tr>
+														    <td>Предоплата</td>
+															<td><small style='font-size: 70%;'>".str_replace("00:00:00", "", $purchase['PREPAYMENT_DATE'])."</small></td>
+															<td><small style='font-size: 70%;'>".str_replace("00:00:00", "", $purchase['PREPAYMENT_ACTUAL_DATE'])."</small></td> 
+															<td><small style='font-size: 70%;'>".$purchase['PREPAYMENT_AMOUNT']."</small></td>
+														  </tr>
+														  <tr>
+														    <td>Оплата по готовности</td>
+															<td><small style='font-size: 70%;'>".str_replace("00:00:00", "", $purchase['PAYMENT_ON_READINESS_DATE'])."</small></td>
+															<td><small style='font-size: 70%;'>".str_replace("00:00:00", "", $purchase['PAYMENT_ON_READINESS_ACTUAL_DATE'])."</small></td> 
+															<td><small style='font-size: 70%;'>".$purchase['PAYMENT_ON_READINESS_AMOUNT']."</small></td>
+														  </tr>
+														  <tr>
+														    <td>Оплата</td>
+															<td><small style='font-size: 70%;'>".str_replace("00:00:00", "", $purchase['PAYMENT_DATE'])."</small></td>
+															<td><small style='font-size: 70%;'>".str_replace("00:00:00", "", $purchase['PAYMENT_ACTUAL_DATE'])."</small></td> 
+															<td><small style='font-size: 70%;'>".$purchase['PAYMENT_AMOUNT']."</small></td>
+														  </tr>
+													</table></td></td>
+									   <td>".$status."</td>
+								   </tr>";
+					}
+				}
+				$html .= "</tbody></table>";
+				$html .= "</div></div></div>";
+			$i++;		
+	   }
+	   $html .= "</div>";
+	}catch (Exception $e){
+		$g = new G();
+		$g->SendMessageText($e->getMessage(),"ERROR");
+		return;
+	}
+	
+}
+
+@@html = $html;]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+    </table>
+    <table name="taskusers"/>
+    <table name="groupwfs">
+      <record>
+        <grp_uid>6637358945bdc17dc5c1a99078744611</grp_uid>
+        <grp_id>7</grp_id>
+        <grp_title><![CDATA[Руководство предприятия]]></grp_title>
+        <grp_status>ACTIVE</grp_status>
+        <grp_ldap_dn></grp_ldap_dn>
+        <grp_ux>NORMAL</grp_ux>
+      </record>
+    </table>
+    <table name="steptriggers">
+      <record>
+        <step_uid>5754682705beb68f21017e9054640238</step_uid>
+        <tas_uid>3330157975beb4ed6432ca8061059140</tas_uid>
+        <tri_uid>5573424925beb68c0e2da58035912835</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+    </table>
+    <table name="dbconnections"/>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker">
+      <record>
+        <pro_uid>1038799465beb4ea95fc7a7018033580</pro_uid>
+        <ct_map_type>PROCESSMAP</ct_map_type>
+        <ct_derivation_history>1</ct_derivation_history>
+        <ct_message_history>1</ct_message_history>
+      </record>
+    </table>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory">
+      <record>
+        <category_uid>6675205135ba9b762a090b7006811625</category_uid>
+        <category_parent>0</category_parent>
+        <category_name><![CDATA[Предприятие]]></category_name>
+        <category_icon></category_icon>
+      </record>
+    </table>
+    <table name="taskExtraProperties"/>
+    <table name="processUser">
+      <record>
+        <pu_uid>6803579295bf3b476ee9ed2060718573</pu_uid>
+        <pro_uid>1038799465beb4ea95fc7a7018033580</pro_uid>
+        <usr_uid>6637358945bdc17dc5c1a99078744611</usr_uid>
+        <pu_type>GROUP_SUPERVISOR</pu_type>
+      </record>
+    </table>
+    <table name="processVariables">
+      <record>
+        <var_uid>1291966315c4902cb6a0202095537042</var_uid>
+        <prj_uid>1038799465beb4ea95fc7a7018033580</prj_uid>
+        <var_name>analogue_supplier_form</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4199739665beb6710e49667037616758</var_uid>
+        <prj_uid>1038799465beb4ea95fc7a7018033580</prj_uid>
+        <var_name>html</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent"/>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager"/>
+    <table name="abeConfiguration"/>
+    <table name="elementTask"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name>SuppliersMonitoring</file_name>
+      <file_path><![CDATA[1038799465beb4ea95fc7a7018033580/9673293345beb68ea64b0f8079463529.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjEwMzg3OTk0NjViZWI0ZWE5NWZjN2E3MDE4MDMzNTgwLzk2NzMyOTMzNDViZWI2OGVhNjRiMGY4MDc5NDYzNTI5IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>
